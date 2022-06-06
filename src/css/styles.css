@@ -170,8 +170,14 @@ p {
     z-index: 99;
 }
 
-.map-container > h2 {
+.map-container > div > h2 {
     margin: auto;
+}
+
+.map-container > div > img {
+    border: solid 1px #ff69b4;
+    border-radius: 4px;
+    margin-top: 2em;
 }
 
 .map-box {

@@ -1,6 +1,7 @@
 import React from "react";
 import Map from "./Map";
-import Logo from "../images/logo.png"
+import Logo from "../images/logo.png";
+import PostLogo from "../images/auspost.png";
 
 export default function Home() {
     return (
@@ -13,7 +14,10 @@ export default function Home() {
                 <p>Terrariums Made with Love</p>
             </span>
             <span className="map-container">
-                <h2>Free Delivery Sydney Wide!</h2>
+                <div>   
+                    <h2>Free Delivery Sydney Wide!</h2>
+                    <img src={PostLogo} alt="auspost" />
+                </div>
                 <Map />
             </span>
             <span>
