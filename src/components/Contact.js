@@ -21,7 +21,7 @@ export default function Contact() {
             <span>
                 <h2>Need to send us an Email?</h2>
                 <p>Need to enquire about out of Sydney shipping costs? Want to enquire about a custom order? 
-                Fret not! Just send us a quick email via this form and we will get back to you asap! Or alternative
+                Fret not! Just send us a quick email via this form and we will get back to you asap! Or alternatively
                 contact via our Ebay store or send us a direct message on our Instagram page @bexbackyard.</p>
             </span>
         </div>
