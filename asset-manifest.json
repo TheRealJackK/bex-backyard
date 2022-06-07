@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bex-backyard/static/css/main.954b375d.css",
-    "main.js": "/bex-backyard/static/js/main.d67b6702.js",
+    "main.js": "/bex-backyard/static/js/main.23d58029.js",
     "static/media/logo.png": "/bex-backyard/static/media/logo.ed2864d3effb14170da7.png",
     "service-worker.js": "/bex-backyard/service-worker.js",
     "static/media/auspostlogo.png": "/bex-backyard/static/media/auspostlogo.1ff4220265ad4dca23b1.png",
@@ -11,10 +11,10 @@
     "index.html": "/bex-backyard/index.html",
     "static/media/instagram.svg": "/bex-backyard/static/media/instagram.b6beacd904f86ba6e0cb57f5b4e24eb8.svg",
     "main.954b375d.css.map": "/bex-backyard/static/css/main.954b375d.css.map",
-    "main.d67b6702.js.map": "/bex-backyard/static/js/main.d67b6702.js.map"
+    "main.23d58029.js.map": "/bex-backyard/static/js/main.23d58029.js.map"
   },
   "entrypoints": [
     "static/css/main.954b375d.css",
-    "static/js/main.d67b6702.js"
+    "static/js/main.23d58029.js"
   ]
 }
