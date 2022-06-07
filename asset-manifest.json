@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bex-backyard/static/css/main.954b375d.css",
+    "main.js": "/bex-backyard/static/js/main.76e83c3d.js",
+    "static/media/logo.png": "/bex-backyard/static/media/logo.ed2864d3effb14170da7.png",
+    "service-worker.js": "/bex-backyard/service-worker.js",
+    "static/media/auspostlogo.png": "/bex-backyard/static/media/auspostlogo.1ff4220265ad4dca23b1.png",
+    "static/media/logo64.png": "/bex-backyard/static/media/logo64.ffdbf59254504afd472e.png",
+    "static/media/cde-logo-svg.svg": "/bex-backyard/static/media/cde-logo-svg.c58a46f661ab5da04d031f6ce31dcbed.svg",
+    "static/media/ebay.svg": "/bex-backyard/static/media/ebay.015706bb8dc7191d7f3257ea767b986f.svg",
+    "index.html": "/bex-backyard/index.html",
+    "static/media/instagram.svg": "/bex-backyard/static/media/instagram.b6beacd904f86ba6e0cb57f5b4e24eb8.svg",
+    "main.954b375d.css.map": "/bex-backyard/static/css/main.954b375d.css.map",
+    "main.76e83c3d.js.map": "/bex-backyard/static/js/main.76e83c3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.954b375d.css",
+    "static/js/main.76e83c3d.js"
+  ]
+}
