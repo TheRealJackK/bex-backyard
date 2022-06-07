@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Shop from "./components/Shop";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Thankyou from "./components/Thankyou";
 
 export default function App() {
   return (
@@ -25,6 +26,9 @@ export default function App() {
         </Route>
         <Route exact path="/Contact">
           <Contact />
+        </Route>
+        <Route exact path="/Thankyou">
+          <Thankyou />
         </Route>
       </Switch>
       <Footer />

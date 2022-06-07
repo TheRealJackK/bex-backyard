@@ -28,6 +28,13 @@ p {
     color: #3e7039;
 }
 
+label {
+    font-family: 'Sacramento', cursive;
+    color: #3e7039;
+    font-size: xx-large;
+    text-align: left;
+}
+
 .card-group {
     max-width: 90%;
     display: flex;
@@ -160,6 +167,46 @@ p {
 
 .page img {
     width: 18em;
+}
+
+.page a {
+    font-size: xx-large;
+}
+
+.page form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1em;
+}
+
+.page form input {
+    border: 1px solid #ff69b4;
+    border-radius: 4px;
+    color: #3e7039;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page form textarea {
+    border: 1px solid #ff69b4;
+    border-radius: 4px;
+    color: #3e7039;
+    font-family: 'Roboto', sans-serif;
+}
+
+#submit {
+    width: 25%;
+    margin: auto;
+    margin-top: 1em;
+    cursor: pointer;
+    color: #3e7039;
+    font-family: 'Roboto', sans-serif;
+    transition: 500ms;
+}
+
+#submit:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .map-container {
