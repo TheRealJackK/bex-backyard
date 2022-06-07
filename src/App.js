@@ -15,7 +15,7 @@ export default function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/bex-backyard">
           <Home />
         </Route>
         <Route exact path="/Shop">

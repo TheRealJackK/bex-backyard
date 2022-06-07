@@ -14,7 +14,7 @@ export default function Contact() {
                     <input type="text" name="subject" id="subject" placeholder="My Subject" required></input>
                     <label>Body</label>
                     <textarea rows="5" cols="60" name="message" id="message" placeholder="Message Here" required></textarea>
-                    <input type="hidden" name="_next" value="http://localhost:3000/Thankyou"></input>
+                    <input type="hidden" name="_next" value="https://therealjackk.github.io/Thankyou"></input>
                     <input type="submit" id="submit" value="Send!"></input>
                 </form>
             </span>

@@ -11,7 +11,7 @@ export default function Header() {
                 <h1>Bex Backyard</h1>
             </span>
             <span>
-                <Link to="/"><p>Home</p></Link>
+                <Link to="/bex-backyard"><p>Home</p></Link>
                 <Link to="/Shop"><p>Shop</p></Link>
                 <Link to="/About"><p>About</p></Link>
                 <Link to="/Contact"><p>Contact</p></Link>
