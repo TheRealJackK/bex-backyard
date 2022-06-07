@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import EbayLogo from "../images/ebay.svg";
-import InstaLogo from "../images/instagram.svg";
 
 export default function Header() {
     return (
@@ -12,9 +10,9 @@ export default function Header() {
             </span>
             <span>
                 <Link to="/bex-backyard"><p>Home</p></Link>
-                <Link to="/Shop"><p>Shop</p></Link>
-                <Link to="/About"><p>About</p></Link>
-                <Link to="/Contact"><p>Contact</p></Link>
+                <Link to="/bex-backyard/Shop"><p>Shop</p></Link>
+                <Link to="/bex-backyard/About"><p>About</p></Link>
+                <Link to="/bex-backyard/Contact"><p>Contact</p></Link>
             </span>
         </header>
         </>

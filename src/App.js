@@ -18,16 +18,16 @@ export default function App() {
         <Route exact path="/bex-backyard">
           <Home />
         </Route>
-        <Route exact path="/Shop">
+        <Route exact path="/bex-backyard/Shop">
           <Shop />
         </Route>
-        <Route exact path="/About">
+        <Route exact path="/bex-backyard/About">
           <About />
         </Route>
-        <Route exact path="/Contact">
+        <Route exact path="/bex-backyard/Contact">
           <Contact />
         </Route>
-        <Route exact path="/Thankyou">
+        <Route exact path="/bex-backyard/Thankyou">
           <Thankyou />
         </Route>
       </Switch>
