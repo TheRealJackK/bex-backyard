@@ -11,7 +11,7 @@ export default function Contact() {
                     <label>Email</label>
                     <input type="email" name="email" id="email" placeholder="myemail@domain.com" required></input>
                     <label>Subject</label>
-                    <input type="text" name="subject" id="subject" placeholder="Custom Order" required></input>
+                    <input type="text" name="subject" id="subject" placeholder="My Subject" required></input>
                     <label>Body</label>
                     <textarea rows="5" cols="60" name="message" id="message" placeholder="Message Here" required></textarea>
                     <input type="hidden" name="_next" value="http://localhost:3000/Thankyou"></input>

@@ -9,12 +9,6 @@ export default function Header() {
         <header className="header">
             <span>
                 <h1>Bex Backyard</h1>
-                <div>
-                    <img src={EbayLogo} alt="Placeholder" />
-                </div>
-                <div>
-                    <img src={InstaLogo} alt="Placeholder" />
-                </div>
             </span>
             <span>
                 <Link to="/"><p>Home</p></Link>

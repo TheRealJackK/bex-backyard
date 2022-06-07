@@ -1,6 +1,19 @@
 import React from "react";
+import { useEffect, useState } from "react";
+import Axios from "axios";
 
 export default function Shop() {
+
+    const [Item, setItem] = useState([])
+    
+    useEffect(() => {
+        Axios.get('apicall')
+        .then((response) => {
+            console.log(response)
+            setItem(response.data)
+        })
+    }, [])
+
     return (
         <>
         <div className="page">
