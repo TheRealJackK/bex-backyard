@@ -12,7 +12,7 @@ export default function Map() {
     if(!isLoaded) {
         return(
             <>
-            <h2>Loading...</h2>
+            <div id="map-spinner" class="lds-heart"><div></div></div>
             </>
         )
     }

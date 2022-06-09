@@ -39,6 +39,10 @@ label {
     width: 18em;
 }
 
+#cdelogo {
+    width: 12em;
+}
+
 /* Card Styling */
 
 .card-group {
@@ -51,8 +55,12 @@ label {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: white;
-    width: fit-content;
+    width: 30%;
     margin: 1em;
     border: 1px solid #ff69b4;
     border-radius: 4px;
@@ -67,16 +75,17 @@ label {
 
 .card > img {
     padding: 0.5em;
+    width: 10em;
 }
 
-.card > h2 {
-    text-align: left;
-    padding-left: 5px;
+.card > h3 {
+    font-size: 1.5rem;
+    padding: 5px;
 }
 
 .card > p {
-    text-align: left;
-    padding-left: 5px;
+    text-align: left !important;
+    padding: 5px;
 }
 
 /* Header Styling */
@@ -207,6 +216,11 @@ label {
     font-family: 'Roboto', sans-serif;
 }
 
+.page div > img {
+    border-radius: 4px;
+    margin: 2em
+}
+
 #submit {
     width: 25%;
     margin: auto;
@@ -239,18 +253,71 @@ label {
     margin: auto;
 }
 
-.map-container > div > img {
-    margin-top: 2em;
-}
-
 .map-box {
     position:fixed;
-    width: 50%;
+    width: 40%;
     height: 25em;
     margin: 1em;
     border: 1px solid #ff69b4;
     border-radius: 4px;
 }
+
+/* Loading Spinner */
+
+.lds-heart {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    transform-origin: 40px 40px;
+  }
+  .lds-heart div {
+    top: 32px;
+    left: 32px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #ff69b4;
+    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .lds-heart div:after,
+  .lds-heart div:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #ff69b4;
+  }
+  .lds-heart div:before {
+    left: -24px;
+    border-radius: 50% 0 0 50%;
+  }
+  .lds-heart div:after {
+    top: -24px;
+    border-radius: 50% 50% 0 0;
+  }
+  @keyframes lds-heart {
+    0% {
+      transform: scale(0.95);
+    }
+    5% {
+      transform: scale(1.1);
+    }
+    39% {
+      transform: scale(0.85);
+    }
+    45% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
 
 @media screen and (max-width: 600px) {
     .map-box {
@@ -282,6 +349,14 @@ label {
 
     .page form {
         width: 90%;
+    }
+
+    .page div > img {
+        width: 80%;
+    }
+    
+    #map-spinner {
+        display: none;
     }
 
     #submit {

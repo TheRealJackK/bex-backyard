@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../images/logo64.png";
 import CDElogo from "../images/cde-logo-svg.svg";
-import EbayLogo from "../images/ebay.svg";
 import InstaLogo from "../images/instagram.svg";
 
 export default function Footer() {
@@ -13,9 +12,6 @@ export default function Footer() {
                 <h1>Bex Backyard</h1>
                 <div>
                     <img src={Logo} alt ="Placeholder" />
-                </div>
-                <div>
-                    <img src={EbayLogo} alt="Placeholder" />
                 </div>
                 <div>
                     <img src={InstaLogo} alt="Placeholder" />

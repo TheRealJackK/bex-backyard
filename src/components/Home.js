@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 import Map from "./Map";
 import Logo from "../images/logo.png";
 import AuspostLogo from "../images/auspostlogo.png"
+import Homepageproducts from "./Homepageproducts";
 
 export default function Home() {
     return (
@@ -17,30 +18,14 @@ export default function Home() {
             <span className="map-container">
                 <div>   
                     <h2>Free Delivery Sydney Wide!</h2>
-                    <p>For deliveries outside of Sydney please <Link to="/Contact">contact</Link> us.</p>
-                    <img src={AuspostLogo} alt="delivery image" />
+                    <p>For deliveries outside of Sydney please <Link to="/bex-backyard/Contact">contact</Link> us.</p>
+                    <img src={AuspostLogo} alt="delivery" />
                 </div>
                 <Map />
             </span>
-            <span>
-                <h2>Featured Works</h2>
-            </span>
+            <h2>Featured Works</h2>
             <div className="card-group">
-                <div className="card">
-                    <img src="https://picsum.photos/250" alt ="img" />
-                    <h2>Card Title</h2>
-                    <p>Card Description</p>
-                </div>
-                <div className="card">
-                    <img src="https://picsum.photos/250" alt ="img" />
-                    <h2>Card Title</h2>
-                    <p>Card Description</p>
-                </div>
-                <div className="card">
-                    <img src="https://picsum.photos/250" alt ="img" />
-                    <h2>Card Title</h2>
-                    <p>Card Description</p>
-                </div>
+                <Homepageproducts />
             </div>
             <span>
                 <p>
