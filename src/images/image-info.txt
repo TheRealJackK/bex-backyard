@@ -1,0 +1,1 @@
+All images used in this site are served via https://sirv.com/ or fetched via an Etsy api from https://www.etsy.com/au/

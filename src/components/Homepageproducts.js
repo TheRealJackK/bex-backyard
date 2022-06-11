@@ -11,7 +11,6 @@ export default function Homepageproducts() {
         setLoading(true)
         Axios.get('https://fakestoreapi.com/products?limit=3')
         .then((response) => {
-            console.log(response)
             setItem(response.data)
             setLoading(false)
         })
@@ -20,7 +19,7 @@ export default function Homepageproducts() {
     if(Loading === true) {
         return(
             <>
-            <div class="lds-heart"><div></div></div>
+            <div className="lds-heart"><div></div></div>
             </>
         )
     } else {

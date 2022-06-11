@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/logo64.png";
-import CDElogo from "../images/cde-logo-svg.svg";
-import InstaLogo from "../images/instagram.svg";
 
 export default function Footer() {
     return (
@@ -10,12 +7,8 @@ export default function Footer() {
         <footer className="footer">
             <span>
                 <h1>Bex Backyard</h1>
-                <div>
-                    <img src={Logo} alt ="Placeholder" />
-                </div>
-                <div>
-                    <img src={InstaLogo} alt="Placeholder" />
-                </div>
+                <img src="https://nceptior.sirv.com/bexbackyard.com.au/logo192.png" alt ="Placeholder" />
+                <img src="https://nceptior.sirv.com/bexbackyard/instagram.svg" alt="Placeholder" />
             </span>
             <span>
                 <Link to="/bex-backyard"><p>Home</p></Link>
@@ -25,7 +18,7 @@ export default function Footer() {
             </span>
             <span>
                 <h2>Developed by Casa de EZZ</h2>
-                <img src={CDElogo} alt="https://www.casa-de-ezz.com"/>
+                <img src="https://nceptior.sirv.com/cde-logo-svg.svg" alt="https://www.casa-de-ezz.com"/>
             </span>
         </footer>
         </>

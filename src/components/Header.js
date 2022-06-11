@@ -5,9 +5,7 @@ export default function Header() {
     return (
         <>
         <header className="header">
-            <span>
-                <h1>Bex Backyard</h1>
-            </span>
+            <h1>Bex Backyard</h1>
             <span>
                 <Link to="/bex-backyard"><p>Home</p></Link>
                 <Link to="/bex-backyard/Shop"><p>Shop</p></Link>

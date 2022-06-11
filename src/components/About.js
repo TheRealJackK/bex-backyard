@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CDELogo from "../images/cde-logo-svg.svg";
 
 export default function About() {
 
@@ -21,7 +20,7 @@ export default function About() {
             </span>
             <span>
                 <h2>Website Development Services Provided By</h2>
-                <img id="cdelogo" src={CDELogo} alt="casa-de-ezz logo" />
+                <img id="cdelogo" src="https://nceptior.sirv.com/cde-logo-svg.svg" alt="casa-de-ezz logo" />
                 <Link to={{pathname: "https://www.casa-de-ezz.com"}} target="_blank"><h2>www.casa-de-ezz.com</h2></Link>
                 <Link to={{pathname: "https://github.com/TheRealJackK"}} target="_blank"><h3>github.com/TheRealJackK</h3></Link>
             </span>
