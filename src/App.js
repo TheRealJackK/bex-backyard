@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Shop from "./components/Shop";
-import About from "./components/About";
 import Contact from "./components/Contact";
 import Thankyou from "./components/Thankyou";
 
@@ -20,9 +19,6 @@ export default function App() {
         </Route>
         <Route exact path="/bex-backyard/Shop">
           <Shop />
-        </Route>
-        <Route exact path="/bex-backyard/About">
-          <About />
         </Route>
         <Route exact path="/bex-backyard/Contact">
           <Contact />

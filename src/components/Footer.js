@@ -6,19 +6,21 @@ export default function Footer() {
         <>
         <footer className="footer">
             <span>
-                <h1>Bex Backyard</h1>
-                <img src="https://nceptior.sirv.com/bexbackyard.com.au/logo192.png" alt ="Placeholder" />
-                <img src="https://nceptior.sirv.com/bexbackyard/instagram.svg" alt="Placeholder" />
+                <h2>Bex Backyard</h2>
+                <img src="" alt="logo" />
+                <h2>https://bexbackyard.com.au</h2>
             </span>
+            <div></div>
             <span>
                 <Link to="/bex-backyard"><p>Home</p></Link>
                 <Link to="/bex-backyard/Shop"><p>Shop</p></Link>
-                <Link to="/bex-backyard/About"><p>About</p></Link>
                 <Link to="/bex-backyard/Contact"><p>Contact</p></Link>
             </span>
+            <div></div>
             <span>
                 <h2>Developed by Casa de EZZ</h2>
-                <img src="https://nceptior.sirv.com/cde-logo-svg.svg" alt="https://www.casa-de-ezz.com"/>
+                <img src="" alt="https://www.casa-de-ezz.com"/>
+                <h2>https://casa-de-ezz.com</h2>
             </span>
         </footer>
         </>
